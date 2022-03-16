@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: 'nerko one', cursive; 
+}
+
+.button-add {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+  }
+    
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.page-nava{
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.page-nava h1 {
+    margin: 20px;
+}
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.product-container {
+    margin: 15px;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 2px 16px;
+  }
+
+.product-container img {
+    width: 300px;
+}
