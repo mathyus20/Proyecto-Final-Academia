@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+body{
+    background-color: #ededed;
+
+}
+ 
+.home{
+    display: flex ;
+
+}
+
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color:#fff;
+    margin:20px;
+    margin-bottom: ;
+
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
