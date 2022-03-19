@@ -126,6 +126,6 @@ footer .social-icons {
 }
 
 footer i:hover {
-  color: #ffc107;
+  color: var(--light);
   cursor: pointer;
 }
