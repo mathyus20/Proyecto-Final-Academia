@@ -1,48 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
-   body {
-    font-family: cursive;
-   }
-   a {
-    text-decoration: none;
-   }
-   li {
-    list-style: none;
-   }
-
-
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Franklin Gothic Medium';
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  text-transform: capitalize;
 }
 
-body{
-    background-color: #ededed;
-
-}
- 
-.home{
-    display: flex ;
-
-}
-
-.in-flex:first-child{
-    flex: 2;
-    padding: 25px;
-    background-color:#fff;
-    margin:20px;
-    margin-bottom: auto;
-
+:root {
+  --orange: #e67e22;
+  --black: #130f40;
+  --white: #fff;
+  --light: #666;
+  --bg: #eee;
+  --border: 2rem solid var(--black);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.in-flex div{
-    padding: 25px;
-    background-color: #fff;
-    margin: 20px;
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background: var(--orange);
+}
+.navbar a {
+  margin-top: 30px;
+  color: var(--white);
+  font-weight: 300;
+}
+
+.navbar img {
+  width: 5%;
+  height: auto;
+  margin-top: 10px;
 }
