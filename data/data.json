@@ -1,0 +1,57 @@
+{
+    "paletas": [
+      {
+        "id": 1,
+        "name": "Pelusa",
+        "especie": "gato",
+        "image": "/img/1.jpg",
+        "edad": "1 mes",
+        "description": "este gatito recien nacido fue encontrado en la puerta de nuestra casa en una noche lluviosa.",
+        "raza": "criollo"
+      },
+      {
+        "id": 2,
+        "name": "Lola",
+        "especie": "perro",
+        "image": "/img/2.jpg",
+        "edad": "1 mes",
+        "description": "lindo perrito abandonado despues de perderse en una piscina de pelotas, es muy obediente.",
+        "raza": "yorky terrier"
+      },
+      {
+        "id": 3,
+        "name": "Thor",
+        "especie": "perro",
+        "image": "/img/3.jpg",
+        "edad": "1 año",
+        "description": "lo encontramos sucio en un parque, sus condiciones hacian verlo feo pero con amor y cuidado ahora esta como se muestra en la imagen.",
+        "raza": "lobo siberiano"
+      },
+      {
+        "id": 4,
+        "name": "Simba",
+        "especie": "gato",
+        "image": "/img/4.jpg",
+        "edad": "4 meses",
+        "description": "fue abandonado por su caceria voraz de matar ratones, su apariencia linda esconde una bestia.",
+        "raza": "criollo mixto"
+      },
+      {
+        "id": 5,
+        "name": "bruno",
+        "especie": "gato",
+        "image": "/img/5.jpg",
+        "edad": "1 año",
+        "description": "lo siento no podemos hablar sobre bruno no no no.",
+        "raza": "blanco"
+      },
+      {
+        "id": 6,
+        "name": "Kiara y rocky",
+        "especie": "perro",
+        "image": "/img/1.jpg",
+        "edad": "3 años y 5 meses",
+        "description": "madre e hijo inseparables desde que fueren encontrados, siempre espera a su madre para dormir a la misma hora.",
+        "raza": "bull terrier"
+      },
+      ] }
