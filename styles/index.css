@@ -9,6 +9,7 @@
   text-decoration: none;
   border: none;
   text-transform: capitalize;
+  list-style: none;
 }
 
 :root {
@@ -104,4 +105,27 @@ display: inline;
   min-height: 100px;
 }
 
+.mascotas{
+    margin-bottom: 20px;
+}
 
+footer {
+  background: var(--orange);
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+}
+
+footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  font-size: 1.3rem;
+}
+
+footer i:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
