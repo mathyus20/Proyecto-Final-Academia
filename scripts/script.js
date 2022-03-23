@@ -3,7 +3,6 @@ async function fetchData() {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
-
       let output = document.querySelector("container");
       data.mascotas.forEach((card) => {
         let { id, name, especie, edad, description, raza, image } = data;
@@ -22,15 +21,13 @@ async function fetchData() {
         </div>
         `;
       });
-      document.querySelector("mascotas").innerHTML = output;
     })
     .catch((error) => {
       if (error == null) {
-        document.querySelector("container").innerHTML = "Error Loading Data";
+        console.log("Error Loading Data");
       } else {
-        console.log(`Error al traer la data : ${error}`);
+        console.log(error);
       }
     });
 }
-window.onload = fetchData();
-
+window.addEventListener("DOMContentLoaded", fetchData());
