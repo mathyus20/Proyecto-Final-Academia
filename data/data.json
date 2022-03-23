@@ -1,5 +1,5 @@
 {
-  "paletas": [
+  "mascotas": [
     {
       "id": 1,
       "name": "Pelusa",
@@ -53,6 +53,42 @@
       "edad": "3 años y 5 meses",
       "description": "madre e hijo inseparables desde que fueren encontrados, siempre espera a su madre para dormir a la misma hora.",
       "raza": "bull terrier"
+    },
+    {
+      "id": 7,
+      "name": "Leo",
+      "especie": "gato",
+      "image": "/img/7.jpg",
+      "edad": "2 años",
+      "description": "un gatito encontrado cerca de una zanja busca familia que lo adopte.",
+      "raza": "criollo mixto"
+    },
+    {
+      "id": 8,
+      "name": "luna",
+      "especie": "perro",
+      "image": "/img/8.jpg",
+      "edad": "3 años",
+      "description": "su nombre viene del momento en el que lo encontramos en un lago mientras que estaba la luna llena.",
+      "raza": "border collie"
+    },
+    {
+      "id": 9,
+      "name": "canela",
+      "especie": "perro",
+      "image": "/img/9.jpg",
+      "edad": "5 años",
+      "description": "tenia tanto pelo que pensabamos que era una nueva especie de animal, pero despues de organizarlo encontramos amor puro en ella.",
+      "raza": "schnauzer"
+    },
+    {
+      "id": 10,
+      "name": "Coco",
+      "especie": "gato",
+      "image": "/img/10.jpg",
+      "edad": "1 y medio de años",
+      "description": "gato exotico y tiene un caracter muy especial con las mujeres (a los hombres los corta).",
+      "raza": "maine coon"
     }
   ]
 }
