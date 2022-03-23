@@ -56,19 +56,19 @@
 }
 
 .somos-img {
-display: inline;
+  display: inline;
 }
 
 .somos-img img {
-      max-height: 600px;
-      max-width: 600px;
-      object-fit: cover;
+  max-height: 600px;
+  max-width: 600px;
+  object-fit: cover;
 }
 
 .somos-texto {
-    margin-top: 90px;
-    margin-right: 300px;
-    text-align: center;
+  margin-top: 90px;
+  margin-right: 300px;
+  text-align: center;
 }
 
 .somos-container {
@@ -105,8 +105,8 @@ display: inline;
   min-height: 100px;
 }
 
-.mascotas{
-    margin-bottom: 20px;
+.mascotas {
+  margin-bottom: 20px;
 }
 
 footer {
@@ -128,4 +128,38 @@ footer .social-icons {
 footer i:hover {
   color: var(--light);
   cursor: pointer;
+}
+
+
+a {
+	text-decoration: none;
+	background: #e67e22;
+	padding: 10px;
+	border-radius: 20px;
+	color: white;
+	justify-content: center;
+}
+
+.modal-contenido{
+  background-color:white;
+	border-radius: 20px;
+  width:300px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
 }
